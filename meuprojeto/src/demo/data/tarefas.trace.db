@@ -1,0 +1,6 @@
+2024-11-23 19:05:30.208326-03:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO USUARIO([*]1,""JOAO@GMAIL.COM"", ""JOAO"",""222333"")"; expected "identifier"; SQL statement:
+INSERT INTO USUARIO(1,"JOAO@GMAIL.COM", "JOAO","222333") [42001-224]
+2024-11-23 22:12:01.933355-03:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NOME_DA_TABELA" not found; SQL statement:
+SELECT * FROM NOME_DA_TABELA [42102-224]
